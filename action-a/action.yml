@@ -1,0 +1,19 @@
+name: "Hello Actions"
+description: "Saludar a alguien"
+author: "raulsimental"
+
+inputs:
+  MY_NAME:
+    description: "A quien saludar"
+    required: true
+    default: "Hola mundo"
+    
+    
+runs:
+  usign: "docker"
+  image: "Dockerfile"
+  
+  
+branding:
+  icon: "mic"
+  color: "red"
